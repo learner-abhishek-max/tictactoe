@@ -25,13 +25,15 @@ nav ul {
 .container {
   display: grid;
   grid-template-columns: repeat(3, 10vw);
+  height: 20vw;
+
   font-family: "Roboto", sans-serif;
 }
 .box {
   border: 2px solid black;
-  font-size: 8vw;
+  font-size: 0;
   cursor: pointer;
-
+  /* visibility: hidden; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,9 +45,7 @@ nav ul {
   padding: 0 34px;
   font-family: "Baloo Bhaina 2", cursive;
 }
-.imgbox img {
-  display: none;
-}
+
 .br-0 {
   border-right: 0;
 }
